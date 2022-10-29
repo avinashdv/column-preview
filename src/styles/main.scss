@@ -1,20 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+@import "colors";
+@import "fonts";
 
-$primary-color: white;
-$secondary-color: #f4f4f4;
-$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+// A mixin for common code to reduce the repetition.
+@mixin commonStyles($color, $width) {
+  background-color: $color;
+
+  @media screen and (min-width: 1440px) {
+    width: $width;
+  }
+
+  & a {
+    color: $color;
+    &:hover {
+      background-color: $color;
+    }
+  }
+}
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: hsl(0, 0%, 95%);
-  font-family: "Lexend Deca", sans-serif;
+  background-color: $primary-color;
+  font-family: $primary-font;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: auto;
+  min-height: 100vh;
   margin: 50px 0 50px;
 
   @media screen and (min-width: 1440px) {
@@ -24,110 +37,46 @@ body {
   }
 }
 
-img {
-  width: 72px;
-  height: auto;
-}
-
-h1,
+h2,
 p {
   margin: 0;
 }
 
-p {
-  padding-right: 50px;
-}
-
 .columnPreview {
   width: 330px;
+  max-width: 330px;
   height: auto;
   display: flex;
   flex-direction: column;
   border-radius: 12px;
+  overflow: hidden;
 
   @media screen and (min-width: 1440px) {
+    max-width: 900px;
     width: 70%;
     height: 550px;
     flex-direction: row;
+    overflow: hidden;
+  }
+
+  // Common Styles across each cars
+  &__cars {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   &__sedans {
-    width: 100%;
-    height: 100%;
-    padding: 40px;
-    background-color: hsl(31, 77%, 52%);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-
-    @media screen and (min-width: 1440px) {
-      width: 33.33%;
-      border-radius: 0;
-      border-top-left-radius: 8px;
-      border-bottom-left-radius: 8px;
-    }
-
-    & button {
-      color: hsl(31, 77%, 52%);
-      &:hover {
-        cursor: pointer;
-        color: White;
-        background-color: hsl(31, 77%, 52%);
-      }
-    }
+    @include commonStyles($sedan-color, 33.33%);
   }
   &__suvs {
-    width: 100%;
-    height: 100%;
-    padding: 40px;
-    background-color: hsl(184, 100%, 22%);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    @media screen and (min-width: 1440px) {
-      width: 33.33%;
-    }
-
-    & button {
-      color: hsl(184, 100%, 22%);
-
-      &:hover {
-        cursor: pointer;
-        color: White;
-        background-color: hsl(184, 100%, 22%);
-      }
-    }
+    @include commonStyles($suv-color, 33.33%);
   }
   &__luxury {
-    width: 100%;
-    height: 100%;
-    padding: 40px;
-    background-color: hsl(179, 100%, 13%);
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    @media screen and (min-width: 1440px) {
-      width: 33.33%;
-      border-radius: 0;
-      border-top-right-radius: 8px;
-      border-bottom-right-radius: 8px;
-    }
-
-    & button {
-      color: hsl(179, 100%, 13%);
-
-      &:hover {
-        cursor: pointer;
-        color: White;
-        background-color: hsl(179, 100%, 13%);
-      }
-    }
+    @include commonStyles($luxury-color, 33.33%);
   }
 
   &__contentTop {
@@ -136,81 +85,37 @@ p {
     flex-direction: column;
     & img {
       margin-bottom: 40px;
+      width: 72px;
+      height: auto;
     }
-    & h1 {
-      font-family: "Big Shoulders Display", sans-serif;
+    & h2 {
+      font-family: $secondary-font;
       font-size: 2.2em;
-      color: hsl(0, 0%, 95%);
+      color: $primary-color;
       margin-bottom: 40px;
       text-transform: uppercase;
     }
     & p {
       margin-bottom: 40px;
-      color: hsla(0, 0%, 100%, 0.75);
+      color: $secondary-color;
       line-height: 26px;
+      padding-right: 50px;
     }
   }
 
   &__contentBottom {
     height: 10%;
-    & button {
-      font-family: "Lexend Deca", sans-serif;
+    & a {
+      text-decoration: none;
+      font-family: $primary-font;
       padding: 15px 30px;
       border-radius: 36px;
-      border: 1px solid white;
-      background-color: hsl(0, 0%, 95%);
+      background-color: $primary-color;
       &:hover {
         cursor: pointer;
-        color: White;
+        color: $primary-color;
+        border: 1px solid $primary-color;
       }
     }
   }
 }
-
-// .container {
-//   background-color: $secondary-color;
-//   border-radius: 10px;
-//   box-shadow: $box-shadow;
-//   padding: 50px 20px;
-//   text-align: center;
-//   max-width: 100%;
-//   width: 800px;
-// }
-
-// h3 {
-//   margin: 0;
-//   opacity: 0.5;
-//   letter-spacing: 2px;
-// }
-
-// img {
-//   width: 100px;
-//   margin-bottom: 20px;
-// }
-
-// .joke {
-//   font-size: 30px;
-//   letter-spacing: 1px;
-//   line-height: 40px;
-//   margin: 50px auto;
-//   max-width: 600px;
-// }
-
-// .btn {
-//   background-color: $primary-color;
-//   color: $secondary-color;
-//   border: 0;
-//   border-radius: 10px;
-//   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
-//   padding: 14px 40px;
-//   font-size: 16px;
-//   cursor: pointer;
-
-//   &:active {
-//     transform: scale(0.98);
-//   }
-
-//   &:focus {
-//     outline: 0;
-//   }
-// }
