@@ -122,6 +122,59 @@ module.exports = function (item) {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/_colors.scss":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/_colors.scss ***!
+  \**************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "", "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/_fonts.scss":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/_fonts.scss ***!
+  \*************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap);"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "", "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss":
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss ***!
@@ -142,9 +195,117 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n}\n\nbody {\n  background-color: hsl(0deg, 0%, 95%);\n  font-family: \"Lexend Deca\", sans-serif;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: auto;\n  margin: 50px 0 50px;\n}\n@media screen and (min-width: 1440px) {\n  body {\n    height: 100vh;\n    margin: 0;\n    overflow: hidden;\n  }\n}\n\nimg {\n  width: 72px;\n  height: auto;\n}\n\nh1,\np {\n  margin: 0;\n}\n\np {\n  padding-right: 50px;\n}\n\n.columnPreview {\n  width: 330px;\n  height: auto;\n  display: flex;\n  flex-direction: column;\n  border-radius: 12px;\n}\n@media screen and (min-width: 1440px) {\n  .columnPreview {\n    width: 70%;\n    height: 550px;\n    flex-direction: row;\n  }\n}\n.columnPreview__sedans {\n  width: 100%;\n  height: 100%;\n  padding: 40px;\n  background-color: hsl(31deg, 77%, 52%);\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  border-top-left-radius: 8px;\n  border-top-right-radius: 8px;\n}\n@media screen and (min-width: 1440px) {\n  .columnPreview__sedans {\n    width: 33.33%;\n    border-radius: 0;\n    border-top-left-radius: 8px;\n    border-bottom-left-radius: 8px;\n  }\n}\n.columnPreview__sedans button {\n  color: hsl(31deg, 77%, 52%);\n}\n.columnPreview__sedans button:hover {\n  cursor: pointer;\n  color: White;\n  background-color: hsl(31deg, 77%, 52%);\n}\n.columnPreview__suvs {\n  width: 100%;\n  height: 100%;\n  padding: 40px;\n  background-color: hsl(184deg, 100%, 22%);\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n@media screen and (min-width: 1440px) {\n  .columnPreview__suvs {\n    width: 33.33%;\n  }\n}\n.columnPreview__suvs button {\n  color: hsl(184deg, 100%, 22%);\n}\n.columnPreview__suvs button:hover {\n  cursor: pointer;\n  color: White;\n  background-color: hsl(184deg, 100%, 22%);\n}\n.columnPreview__luxury {\n  width: 100%;\n  height: 100%;\n  padding: 40px;\n  background-color: hsl(179deg, 100%, 13%);\n  border-bottom-left-radius: 8px;\n  border-bottom-right-radius: 8px;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n@media screen and (min-width: 1440px) {\n  .columnPreview__luxury {\n    width: 33.33%;\n    border-radius: 0;\n    border-top-right-radius: 8px;\n    border-bottom-right-radius: 8px;\n  }\n}\n.columnPreview__luxury button {\n  color: hsl(179deg, 100%, 13%);\n}\n.columnPreview__luxury button:hover {\n  cursor: pointer;\n  color: White;\n  background-color: hsl(179deg, 100%, 13%);\n}\n.columnPreview__contentTop {\n  height: 70%;\n  display: flex;\n  flex-direction: column;\n}\n.columnPreview__contentTop img {\n  margin-bottom: 40px;\n}\n.columnPreview__contentTop h1 {\n  font-family: \"Big Shoulders Display\", sans-serif;\n  font-size: 2.2em;\n  color: hsl(0deg, 0%, 95%);\n  margin-bottom: 40px;\n  text-transform: uppercase;\n}\n.columnPreview__contentTop p {\n  margin-bottom: 40px;\n  color: hsla(0deg, 0%, 100%, 0.75);\n  line-height: 26px;\n}\n.columnPreview__contentBottom {\n  height: 10%;\n}\n.columnPreview__contentBottom button {\n  font-family: \"Lexend Deca\", sans-serif;\n  padding: 15px 30px;\n  border-radius: 36px;\n  border: 1px solid white;\n  background-color: hsl(0deg, 0%, 95%);\n}\n.columnPreview__contentBottom button:hover {\n  cursor: pointer;\n  color: White;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAMA;EACE,sBAAA;AAJF;;AAOA;EACE,oCAAA;EACA,sCAAA;EACA,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,YAAA;EACA,mBAAA;AAJF;AAME;EATF;IAUI,aAAA;IACA,SAAA;IACA,gBAAA;EAHF;AACF;;AAMA;EACE,WAAA;EACA,YAAA;AAHF;;AAMA;;EAEE,SAAA;AAHF;;AAMA;EACE,mBAAA;AAHF;;AAMA;EACE,YAAA;EACA,YAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;AAHF;AAKE;EAPF;IAQI,UAAA;IACA,aAAA;IACA,mBAAA;EAFF;AACF;AAIE;EACE,WAAA;EACA,YAAA;EACA,aAAA;EACA,sCAAA;EACA,aAAA;EACA,sBAAA;EACA,8BAAA;EACA,2BAAA;EACA,4BAAA;AAFJ;AAII;EAXF;IAYI,aAAA;IACA,gBAAA;IACA,2BAAA;IACA,8BAAA;EADJ;AACF;AAGI;EACE,2BAAA;AADN;AAEM;EACE,eAAA;EACA,YAAA;EACA,sCAAA;AAAR;AAIE;EACE,WAAA;EACA,YAAA;EACA,aAAA;EACA,wCAAA;EACA,aAAA;EACA,sBAAA;EACA,8BAAA;AAFJ;AAII;EATF;IAUI,aAAA;EADJ;AACF;AAGI;EACE,6BAAA;AADN;AAGM;EACE,eAAA;EACA,YAAA;EACA,wCAAA;AADR;AAKE;EACE,WAAA;EACA,YAAA;EACA,aAAA;EACA,wCAAA;EACA,8BAAA;EACA,+BAAA;EACA,aAAA;EACA,sBAAA;EACA,8BAAA;AAHJ;AAKI;EAXF;IAYI,aAAA;IACA,gBAAA;IACA,4BAAA;IACA,+BAAA;EAFJ;AACF;AAII;EACE,6BAAA;AAFN;AAIM;EACE,eAAA;EACA,YAAA;EACA,wCAAA;AAFR;AAOE;EACE,WAAA;EACA,aAAA;EACA,sBAAA;AALJ;AAMI;EACE,mBAAA;AAJN;AAMI;EACE,gDAAA;EACA,gBAAA;EACA,yBAAA;EACA,mBAAA;EACA,yBAAA;AAJN;AAMI;EACE,mBAAA;EACA,iCAAA;EACA,iBAAA;AAJN;AAQE;EACE,WAAA;AANJ;AAOI;EACE,sCAAA;EACA,kBAAA;EACA,mBAAA;EACA,uBAAA;EACA,oCAAA;AALN;AAMM;EACE,eAAA;EACA,YAAA;AAJR","sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap\");\r\n\r\n$primary-color: white;\r\n$secondary-color: #f4f4f4;\r\n$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n\r\n* {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  background-color: hsl(0, 0%, 95%);\r\n  font-family: \"Lexend Deca\", sans-serif;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  height: auto;\r\n  margin: 50px 0 50px;\r\n\r\n  @media screen and (min-width: 1440px) {\r\n    height: 100vh;\r\n    margin: 0;\r\n    overflow: hidden;\r\n  }\r\n}\r\n\r\nimg {\r\n  width: 72px;\r\n  height: auto;\r\n}\r\n\r\nh1,\r\np {\r\n  margin: 0;\r\n}\r\n\r\np {\r\n  padding-right: 50px;\r\n}\r\n\r\n.columnPreview {\r\n  width: 330px;\r\n  height: auto;\r\n  display: flex;\r\n  flex-direction: column;\r\n  border-radius: 12px;\r\n\r\n  @media screen and (min-width: 1440px) {\r\n    width: 70%;\r\n    height: 550px;\r\n    flex-direction: row;\r\n  }\r\n\r\n  &__sedans {\r\n    width: 100%;\r\n    height: 100%;\r\n    padding: 40px;\r\n    background-color: hsl(31, 77%, 52%);\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: space-between;\r\n    border-top-left-radius: 8px;\r\n    border-top-right-radius: 8px;\r\n\r\n    @media screen and (min-width: 1440px) {\r\n      width: 33.33%;\r\n      border-radius: 0;\r\n      border-top-left-radius: 8px;\r\n      border-bottom-left-radius: 8px;\r\n    }\r\n\r\n    & button {\r\n      color: hsl(31, 77%, 52%);\r\n      &:hover {\r\n        cursor: pointer;\r\n        color: White;\r\n        background-color: hsl(31, 77%, 52%);\r\n      }\r\n    }\r\n  }\r\n  &__suvs {\r\n    width: 100%;\r\n    height: 100%;\r\n    padding: 40px;\r\n    background-color: hsl(184, 100%, 22%);\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: space-between;\r\n\r\n    @media screen and (min-width: 1440px) {\r\n      width: 33.33%;\r\n    }\r\n\r\n    & button {\r\n      color: hsl(184, 100%, 22%);\r\n\r\n      &:hover {\r\n        cursor: pointer;\r\n        color: White;\r\n        background-color: hsl(184, 100%, 22%);\r\n      }\r\n    }\r\n  }\r\n  &__luxury {\r\n    width: 100%;\r\n    height: 100%;\r\n    padding: 40px;\r\n    background-color: hsl(179, 100%, 13%);\r\n    border-bottom-left-radius: 8px;\r\n    border-bottom-right-radius: 8px;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: space-between;\r\n\r\n    @media screen and (min-width: 1440px) {\r\n      width: 33.33%;\r\n      border-radius: 0;\r\n      border-top-right-radius: 8px;\r\n      border-bottom-right-radius: 8px;\r\n    }\r\n\r\n    & button {\r\n      color: hsl(179, 100%, 13%);\r\n\r\n      &:hover {\r\n        cursor: pointer;\r\n        color: White;\r\n        background-color: hsl(179, 100%, 13%);\r\n      }\r\n    }\r\n  }\r\n\r\n  &__contentTop {\r\n    height: 70%;\r\n    display: flex;\r\n    flex-direction: column;\r\n    & img {\r\n      margin-bottom: 40px;\r\n    }\r\n    & h1 {\r\n      font-family: \"Big Shoulders Display\", sans-serif;\r\n      font-size: 2.2em;\r\n      color: hsl(0, 0%, 95%);\r\n      margin-bottom: 40px;\r\n      text-transform: uppercase;\r\n    }\r\n    & p {\r\n      margin-bottom: 40px;\r\n      color: hsla(0, 0%, 100%, 0.75);\r\n      line-height: 26px;\r\n    }\r\n  }\r\n\r\n  &__contentBottom {\r\n    height: 10%;\r\n    & button {\r\n      font-family: \"Lexend Deca\", sans-serif;\r\n      padding: 15px 30px;\r\n      border-radius: 36px;\r\n      border: 1px solid white;\r\n      background-color: hsl(0, 0%, 95%);\r\n      &:hover {\r\n        cursor: pointer;\r\n        color: White;\r\n      }\r\n    }\r\n  }\r\n}\r\n\r\n// .container {\r\n//   background-color: $secondary-color;\r\n//   border-radius: 10px;\r\n//   box-shadow: $box-shadow;\r\n//   padding: 50px 20px;\r\n//   text-align: center;\r\n//   max-width: 100%;\r\n//   width: 800px;\r\n// }\r\n\r\n// h3 {\r\n//   margin: 0;\r\n//   opacity: 0.5;\r\n//   letter-spacing: 2px;\r\n// }\r\n\r\n// img {\r\n//   width: 100px;\r\n//   margin-bottom: 20px;\r\n// }\r\n\r\n// .joke {\r\n//   font-size: 30px;\r\n//   letter-spacing: 1px;\r\n//   line-height: 40px;\r\n//   margin: 50px auto;\r\n//   max-width: 600px;\r\n// }\r\n\r\n// .btn {\r\n//   background-color: $primary-color;\r\n//   color: $secondary-color;\r\n//   border: 0;\r\n//   border-radius: 10px;\r\n//   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n//   padding: 14px 40px;\r\n//   font-size: 16px;\r\n//   cursor: pointer;\r\n\r\n//   &:active {\r\n//     transform: scale(0.98);\r\n//   }\r\n\r\n//   &:focus {\r\n//     outline: 0;\r\n//   }\r\n// }\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n}\n\nbody {\n  background-color: hsl(0deg, 0%, 95%);\n  font-family: \"Lexend Deca\", sans-serif;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  min-height: 100vh;\n  margin: 50px 0 50px;\n}\n@media screen and (min-width: 1440px) {\n  body {\n    height: 100vh;\n    margin: 0;\n    overflow: hidden;\n  }\n}\n\nh2,\np {\n  margin: 0;\n}\n\n.columnPreview {\n  width: 330px;\n  max-width: 330px;\n  height: auto;\n  display: flex;\n  flex-direction: column;\n  border-radius: 12px;\n  overflow: hidden;\n}\n@media screen and (min-width: 1440px) {\n  .columnPreview {\n    max-width: 900px;\n    width: 70%;\n    height: 550px;\n    flex-direction: row;\n    overflow: hidden;\n  }\n}\n.columnPreview__cars {\n  width: 100%;\n  height: 100%;\n  padding: 40px;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n.columnPreview__sedans {\n  background-color: hsl(31deg, 77%, 52%);\n}\n@media screen and (min-width: 1440px) {\n  .columnPreview__sedans {\n    width: 33.33%;\n  }\n}\n.columnPreview__sedans a {\n  color: hsl(31deg, 77%, 52%);\n}\n.columnPreview__sedans a:hover {\n  background-color: hsl(31deg, 77%, 52%);\n}\n.columnPreview__suvs {\n  background-color: hsl(184deg, 100%, 22%);\n}\n@media screen and (min-width: 1440px) {\n  .columnPreview__suvs {\n    width: 33.33%;\n  }\n}\n.columnPreview__suvs a {\n  color: hsl(184deg, 100%, 22%);\n}\n.columnPreview__suvs a:hover {\n  background-color: hsl(184deg, 100%, 22%);\n}\n.columnPreview__luxury {\n  background-color: hsl(179deg, 100%, 13%);\n}\n@media screen and (min-width: 1440px) {\n  .columnPreview__luxury {\n    width: 33.33%;\n  }\n}\n.columnPreview__luxury a {\n  color: hsl(179deg, 100%, 13%);\n}\n.columnPreview__luxury a:hover {\n  background-color: hsl(179deg, 100%, 13%);\n}\n.columnPreview__contentTop {\n  height: 70%;\n  display: flex;\n  flex-direction: column;\n}\n.columnPreview__contentTop img {\n  margin-bottom: 40px;\n  width: 72px;\n  height: auto;\n}\n.columnPreview__contentTop h2 {\n  font-family: \"Big Shoulders Display\", sans-serif;\n  font-size: 2.2em;\n  color: hsl(0deg, 0%, 95%);\n  margin-bottom: 40px;\n  text-transform: uppercase;\n}\n.columnPreview__contentTop p {\n  margin-bottom: 40px;\n  color: hsla(0deg, 0%, 100%, 0.75);\n  line-height: 26px;\n  padding-right: 50px;\n}\n.columnPreview__contentBottom {\n  height: 10%;\n}\n.columnPreview__contentBottom a {\n  text-decoration: none;\n  font-family: \"Lexend Deca\", sans-serif;\n  padding: 15px 30px;\n  border-radius: 36px;\n  background-color: hsl(0deg, 0%, 95%);\n}\n.columnPreview__contentBottom a:hover {\n  cursor: pointer;\n  color: hsl(0deg, 0%, 95%);\n  border: 1px solid hsl(0deg, 0%, 95%);\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss","webpack://./src/styles/_colors.scss","webpack://./src/styles/_fonts.scss"],"names":[],"mappings":"AAmBA;EACE,sBAAA;AAjBF;;AAoBA;EACE,oCCxBc;EDyBd,sCExBa;EFyBb,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,iBAAA;EACA,mBAAA;AAjBF;AAmBE;EATF;IAUI,aAAA;IACA,SAAA;IACA,gBAAA;EAhBF;AACF;;AAmBA;;EAEE,SAAA;AAhBF;;AAmBA;EACE,YAAA;EACA,gBAAA;EACA,YAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,gBAAA;AAhBF;AAkBE;EATF;IAUI,gBAAA;IACA,UAAA;IACA,aAAA;IACA,mBAAA;IACA,gBAAA;EAfF;AACF;AAkBE;EACE,WAAA;EACA,YAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA;EACA,8BAAA;AAhBJ;AAmBE;EAlEA,sCCFY;ADoDd;AAhDE;EAgEA;IA/DE,aAgEoC;EAbtC;AACF;AAjDE;EACE,2BCTU;AD4Dd;AAlDI;EACE,sCCXQ;AD+Dd;AAQE;EArEA,wCCDU;ADiEZ;AA9DE;EAmEA;IAlEE,aAmEkC;EAFpC;AACF;AA/DE;EACE,6BCRQ;ADyEZ;AAhEI;EACE,wCCVM;AD4EZ;AAHE;EAxEA,wCAAA;AA8EF;AA5EE;EAsEA;IArEE,aAsEqC;EASvC;AACF;AA7EE;EACE,6BCPW;ADsFf;AA9EI;EACE,wCCTS;ADyFf;AAbE;EACE,WAAA;EACA,aAAA;EACA,sBAAA;AAeJ;AAdI;EACE,mBAAA;EACA,WAAA;EACA,YAAA;AAgBN;AAdI;EACE,gDEzFW;EF0FX,gBAAA;EACA,yBC7FU;ED8FV,mBAAA;EACA,yBAAA;AAgBN;AAdI;EACE,mBAAA;EACA,iCClGY;EDmGZ,iBAAA;EACA,mBAAA;AAgBN;AAZE;EACE,WAAA;AAcJ;AAbI;EACE,qBAAA;EACA,sCE5GS;EF6GT,kBAAA;EACA,mBAAA;EACA,oCChHU;AD+HhB;AAdM;EACE,eAAA;EACA,yBCnHQ;EDoHR,oCAAA;AAgBR","sourcesContent":["@import \"colors\";\r\n@import \"fonts\";\r\n\r\n// A mixin for common code to reduce the repetition.\r\n@mixin commonStyles($color, $width) {\r\n  background-color: $color;\r\n\r\n  @media screen and (min-width: 1440px) {\r\n    width: $width;\r\n  }\r\n\r\n  & a {\r\n    color: $color;\r\n    &:hover {\r\n      background-color: $color;\r\n    }\r\n  }\r\n}\r\n\r\n* {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  background-color: $primary-color;\r\n  font-family: $primary-font;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  min-height: 100vh;\r\n  margin: 50px 0 50px;\r\n\r\n  @media screen and (min-width: 1440px) {\r\n    height: 100vh;\r\n    margin: 0;\r\n    overflow: hidden;\r\n  }\r\n}\r\n\r\nh2,\r\np {\r\n  margin: 0;\r\n}\r\n\r\n.columnPreview {\r\n  width: 330px;\r\n  max-width: 330px;\r\n  height: auto;\r\n  display: flex;\r\n  flex-direction: column;\r\n  border-radius: 12px;\r\n  overflow: hidden;\r\n\r\n  @media screen and (min-width: 1440px) {\r\n    max-width: 900px;\r\n    width: 70%;\r\n    height: 550px;\r\n    flex-direction: row;\r\n    overflow: hidden;\r\n  }\r\n\r\n  // Common Styles across each cars\r\n  &__cars {\r\n    width: 100%;\r\n    height: 100%;\r\n    padding: 40px;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: space-between;\r\n  }\r\n\r\n  &__sedans {\r\n    @include commonStyles($sedan-color, 33.33%);\r\n  }\r\n  &__suvs {\r\n    @include commonStyles($suv-color, 33.33%);\r\n  }\r\n  &__luxury {\r\n    @include commonStyles($luxury-color, 33.33%);\r\n  }\r\n\r\n  &__contentTop {\r\n    height: 70%;\r\n    display: flex;\r\n    flex-direction: column;\r\n    & img {\r\n      margin-bottom: 40px;\r\n      width: 72px;\r\n      height: auto;\r\n    }\r\n    & h2 {\r\n      font-family: $secondary-font;\r\n      font-size: 2.2em;\r\n      color: $primary-color;\r\n      margin-bottom: 40px;\r\n      text-transform: uppercase;\r\n    }\r\n    & p {\r\n      margin-bottom: 40px;\r\n      color: $secondary-color;\r\n      line-height: 26px;\r\n      padding-right: 50px;\r\n    }\r\n  }\r\n\r\n  &__contentBottom {\r\n    height: 10%;\r\n    & a {\r\n      text-decoration: none;\r\n      font-family: $primary-font;\r\n      padding: 15px 30px;\r\n      border-radius: 36px;\r\n      background-color: $primary-color;\r\n      &:hover {\r\n        cursor: pointer;\r\n        color: $primary-color;\r\n        border: 1px solid $primary-color;\r\n      }\r\n    }\r\n  }\r\n}\r\n","$primary-color: hsl(0, 0%, 95%);\r\n$secondary-color: hsla(0, 0%, 100%, 0.75);\r\n\r\n$sedan-color: hsl(31, 77%, 52%);\r\n$suv-color: hsl(184, 100%, 22%);\r\n$luxury-color: hsl(179, 100%, 13%);\r\n","@import url(\"https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap\");\r\n$primary-font: \"Lexend Deca\", sans-serif;\r\n$secondary-font: \"Big Shoulders Display\", sans-serif;\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./src/styles/_colors.scss":
+/*!*********************************!*\
+  !*** ./src/styles/_colors.scss ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_colors_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./_colors.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/_colors.scss");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_colors_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_colors_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_colors_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_colors_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+
+/***/ "./src/styles/_fonts.scss":
+/*!********************************!*\
+  !*** ./src/styles/_fonts.scss ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_fonts_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./_fonts.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/_fonts.scss");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_fonts_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_fonts_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_fonts_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_fonts_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
@@ -509,16 +670,6 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/assets/favicon.png":
-/*!********************************!*\
-  !*** ./src/assets/favicon.png ***!
-  \********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "favicon.png";
-
-/***/ }),
-
 /***/ "./src/assets/icon-luxury.svg":
 /*!************************************!*\
   !*** ./src/assets/icon-luxury.svg ***!
@@ -662,10 +813,12 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ "./src/styles/main.scss");
-/* harmony import */ var _assets_icon_sedans_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/icon-sedans.svg */ "./src/assets/icon-sedans.svg");
-/* harmony import */ var _assets_icon_suvs_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/icon-suvs.svg */ "./src/assets/icon-suvs.svg");
-/* harmony import */ var _assets_icon_luxury_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/icon-luxury.svg */ "./src/assets/icon-luxury.svg");
-/* harmony import */ var _assets_favicon_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/favicon.png */ "./src/assets/favicon.png");
+/* harmony import */ var _styles_colors_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/_colors.scss */ "./src/styles/_colors.scss");
+/* harmony import */ var _styles_fonts_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/_fonts.scss */ "./src/styles/_fonts.scss");
+/* harmony import */ var _assets_icon_sedans_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/icon-sedans.svg */ "./src/assets/icon-sedans.svg");
+/* harmony import */ var _assets_icon_suvs_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/icon-suvs.svg */ "./src/assets/icon-suvs.svg");
+/* harmony import */ var _assets_icon_luxury_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/icon-luxury.svg */ "./src/assets/icon-luxury.svg");
+
 
 
 
@@ -674,11 +827,11 @@ __webpack_require__.r(__webpack_exports__);
 var sedan = document.getElementById("icon-sedan");
 var suv = document.getElementById("icon-suv");
 var luxury = document.getElementById("icon-luxury");
-sedan.src = _assets_icon_sedans_svg__WEBPACK_IMPORTED_MODULE_1__;
-suv.src = _assets_icon_suvs_svg__WEBPACK_IMPORTED_MODULE_2__;
-luxury.src = _assets_icon_luxury_svg__WEBPACK_IMPORTED_MODULE_3__;
+sedan.src = _assets_icon_sedans_svg__WEBPACK_IMPORTED_MODULE_3__;
+suv.src = _assets_icon_suvs_svg__WEBPACK_IMPORTED_MODULE_4__;
+luxury.src = _assets_icon_luxury_svg__WEBPACK_IMPORTED_MODULE_5__;
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle671977a73f8a6acd3e30.js.map
+//# sourceMappingURL=bundle43321491ad199b6fdab3.js.map
